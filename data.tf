@@ -1,5 +1,5 @@
 data "aws_availability_zones" "available" {
-    state = "available"
+  state = "available"
 }
 
 data "aws_vpc" "default" {
@@ -13,3 +13,5 @@ data "aws_route_table" "main" {
     values = ["true"]
   }
 }
+
+
